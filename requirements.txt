@@ -1,0 +1,8 @@
+networkx>=3.0
+pandas>=2.0
+matplotlib>=3.5
+psutil>=5.9
+numpy>=1.22
+pytest>=7.0
+ipytest>=0.13
+weasyprint>=61.0
