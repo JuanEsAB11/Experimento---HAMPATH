@@ -53,13 +53,13 @@ weasyprint>=61.0
 Para replicar de manera exacta las mediciones, tablas y gráficas presentadas en el informe final, complete los siguientes pasos de manera secuencial:
 
 ### Paso 1: Validación de la Corrección (FASE 1)
-1. Inicie su entorno de desarrollo (se recomienda **Visual Studio Code** con la extensión de Jupyter).
-2. Abra el notebook `notebooks/Proyecto_Final_ADA.ipynb`.
+1. Inicie su entorno de desarrollo.
+2. Abra el notebook `notebooks/Proyecto_Final_ADA.ipynb` (está pensado para abrir principalmente en Google Colab).
 3. Ejecute todas las celdas de este notebook. 
 4. El notebook cargará los algoritmos y ejecutará automáticamente una suite de **pruebas unitarias** usando `pytest` e `ipytest` sobre grafos conocidos. La confirmación de que todas las pruebas pasaron con éxito garantiza que los algoritmos son lógicamente correctos antes de realizar las mediciones de rendimiento.
 
 ### Paso 2: Ejecución del Barrido Experimental (FASE 2)
-1. Abra el notebook `notebooks/Resultados_Experimento.ipynb`.
+1. Abra el notebook `notebooks/Resultados_Experimento.ipynb` (se recomienda **Visual Studio Code** con la extensión de Jupyter).
 2. Asegúrese de que el entorno sea un entorno local dedicado y estable (evite plataformas en la nube compartidas como Google Colab para medir tiempos reales estables).
 3. Ejecute las celdas correspondientes a la **Fase de Generación de Datos** en orden:
    - Se registrará de forma automática la huella de hardware y software en `resultados/entorno.json`.
